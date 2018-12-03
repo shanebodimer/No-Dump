@@ -5,84 +5,37 @@
 // Bad words
 badWords = [
   "anus",
-
   "bitch",
-
   "cock",
-
   "cum",
   "dick",
   "duche",
   "dyke",
-
   "fag",
-
-  "faggot",
-
-  "fagot",
-  "fagots",
-  "fags",
-
   "fuck",
-  "fucka",
-  "fucked",
-  "fucker",
-  "fuckers",
-  "fuckhead",
-  "fuckheads",
-  "fuckin",
-  "fucking",
-  "fuckings",
-
   "gangbang",
-
   "god-dam",
   "goddamn",
-
   "horny",
   "nigga",
-  "niggas",
-  "niggaz",
   "nigger",
-  "niggers",
   "orgasm",
-
   "penis",
-
   "piss",
-
   "porn",
-
   "pornos",
-
   "pussies",
   "pussy",
-
   "sex",
-
   "shaggin",
   "shagging",
-
   "shit",
-
-  "shiting",
-
-  "shits",
-
-  "shitty",
   "skank",
   "slut",
   "sluts",
-
   "tit",
-  "tits",
-
-  "titties",
-
   "twat",
-
   "vagina",
-
   "whore"
 ];
 
@@ -96,7 +49,9 @@ for (i = 0; i < badWords.length; i++) {
   re = new RegExp(badWords[i], "g");
   raw = raw.replace(
     re,
-    `<span style="background-color: rgba(255, 0, 0, .6)">${badWords[i]}</span>`
+    `<span style="background-color: rgba(255, 0, 0, 1); color: #fff; padding: 5px; font-weight: bold; border-radius: 4px;">${
+      badWords[i]
+    }</span>`
   );
 }
 
