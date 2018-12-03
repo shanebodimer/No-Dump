@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "No Dump",
+  "version": "1",
+  "description": "Highlight naughty words on Genius.com",
+  "content_scripts": [{
+    "css": ["style.css"],
+    "js": ["script.js"],
+    "matches": ["https://genius.com/*"]
+  }]
+}
