@@ -2,6 +2,8 @@
 
 Highlight bad words on Genius
 
+Warning: this code and screenshots below show a lot of curse words
+
 ## Why
 
 When DJing on college radio, we can play any song we want as long as we censor the curse words. Usually, this is done by the radio DJ following along with the lyrics from Genius and hitting the mute button when a bad word comes up.
